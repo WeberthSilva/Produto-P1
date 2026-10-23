@@ -1,5 +1,9 @@
-package org.example.projetop1;
+package org.example.projetop1.repository;
 
+
+import org.example.projetop1.model.Categoria;
+import org.example.projetop1.model.Produto;
+import org.example.projetop1.service.Estoque;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

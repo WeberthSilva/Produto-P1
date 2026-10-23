@@ -8,7 +8,7 @@
       alignment="TOP_CENTER"
       prefWidth="450"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.example.projetop1.CadastroProdutoController">
+      fx:controller="org.example.projetop1.controller.CadastroProdutoController">
 
     <padding>
         <Insets top="20" right="25" bottom="20" left="25"/>

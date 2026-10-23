@@ -1,6 +1,7 @@
-package org.example.projetop1;
+package org.example.projetop1.service;
 
-import java.math.BigDecimal;
+import org.example.projetop1.model.Produto;
+
 import java.math.BigDecimal;
 import java.util.List;
 

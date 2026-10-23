@@ -1,5 +1,5 @@
 
-package org.example.projetop1;
+package org.example.projetop1.controller;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.fxml.FXML;
@@ -15,7 +15,11 @@ import javafx.stage.Stage;
 import javafx.scene.control.Alert;
 
 import javafx.scene.control.TextInputDialog;
-import javafx.scene.control.Alert;
+import org.example.projetop1.repository.ArquivoCSV;
+import org.example.projetop1.model.Produto;
+import org.example.projetop1.service.Estoque;
+
+
 import java.util.Optional;
 
 public class HelloController {
@@ -105,8 +109,10 @@ public class HelloController {
     public void onCadastrarClick() {
         try {
             FXMLLoader loader = new FXMLLoader(
-                    getClass().getResource("cadastro-produto.fxml")
-            );
+                    getClass().getResource(
+                            "/org/example/projetop1/cadastro-produto.fxml"
+                    )
+            );//sssssssssssssss
 
             Parent tela = loader.load();
             CadastroProdutoController controller = loader.getController();
@@ -188,7 +194,9 @@ public class HelloController {
 
             try {
                 FXMLLoader loader = new FXMLLoader(
-                        getClass().getResource("editar-produto.fxml")
+                        getClass().getResource(
+                                "/org/example/projetop1/editar-produto.fxml"
+                        )
                 );
 
                 Parent tela = loader.load();

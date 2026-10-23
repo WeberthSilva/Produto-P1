@@ -1,5 +1,8 @@
-package org.example.projetop1;
+package org.example.projetop1.service;
 
+
+import org.example.projetop1.repository.ArquivoCSV;
+import org.example.projetop1.model.Produto;
 
 import java.io.IOException;
 import java.util.ArrayList;

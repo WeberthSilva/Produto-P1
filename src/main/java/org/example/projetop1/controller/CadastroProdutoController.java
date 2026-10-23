@@ -1,11 +1,15 @@
 
-package org.example.projetop1;
+package org.example.projetop1.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import org.example.projetop1.model.Categoria;
+import org.example.projetop1.model.Produto;
+import org.example.projetop1.service.Estoque;
+
 import java.util.function.Consumer;
 
 public class CadastroProdutoController {

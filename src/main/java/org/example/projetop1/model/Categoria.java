@@ -1,7 +1,4 @@
-package org.example.projetop1;
-
-import java.util.List;
-import java.util.ArrayList;
+package org.example.projetop1.model;
 
 public class Categoria {
 

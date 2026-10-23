@@ -1,4 +1,4 @@
-package org.example.projetop1;
+package org.example.projetop1.model;
 
 import java.time.LocalDate;
 import java.math.BigDecimal;

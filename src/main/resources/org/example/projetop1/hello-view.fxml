@@ -10,7 +10,7 @@
 
 <VBox alignment="TOP_CENTER" spacing="15"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.example.projetop1.HelloController">
+      fx:controller="org.example.projetop1.controller.HelloController">
 
     <padding>
         <Insets top="20" right="20" bottom="20" left="20"/>

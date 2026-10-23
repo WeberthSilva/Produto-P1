@@ -2,5 +2,4 @@ PROD0001;Arroz;Arroz branco;2026-01-10;2027-01-10;1;10;1;1;Alimentos;Produtos al
 PROD0002;Feijao;Feijao carioca;2026-02-10;2027-02-10;8.00;10;1;1;Alimentos;Produtos alimentícios;Mercearia
 PROD0003;Detergente;Detergente liquido;2026-03-10;2027-03-10;2.50;5.00;1;2;Limpeza;Produtos de limpeza;Higiene
 PROD0004;Macarrao;Macarrao espaguete;2026-04-15;2027-04-15;4.00;10;1;1;Alimentos;Produtos alimentícios;Mercearia
-PROD0005;Desinfetante;Desinfetante perfumado;2026-05-20;2027-05-20;6.00;10.00;1;2;Limpeza;Produtos de limpeza;Higiene
-PROD0006;peixe;peixe congelado;2026-10-15;2026-11-12;1;10;1;1;Alimentos;Produtos alimentícios;Mercearia
+PROD0005;Desinfetante;Desinfetante perfumado;2026-05-20;2027-05-20;5;9;19;2;Limpeza;Produtos de limpeza;Higiene

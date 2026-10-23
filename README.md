@@ -41,7 +41,7 @@ Como executar
 2. Instale o IntelliJ IDEA ou outra IDE com suporte a Maven.
 3. Abra o projeto pela pasta que contém pom.xml.
 4. Aguarde o Maven baixar as dependências.
-5. Execute org.example.projetop1.HelloApplication pela IDE.
+5. Execute org.example.projetop1.app.HelloApplication pela IDE.
 Também é possível executar pelo terminal, na pasta do projeto, se o
 pom.xml estiver configurado com o plugin JavaFX:
 mvn clean javafx:run
