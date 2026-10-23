@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox alignment="TOP_CENTER" spacing="15"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.projetop1.HelloController">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="SISTEMA DE CONTROLE DE ESTOQUE"
+           style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Cadastrar produto" onAction="#onCadastrarClick"/>
+        <Button text="Consultar produto" onAction="#onConsultarClick"/>
+        <Button text="Atualizar produto" onAction="#onAtualizarClick"/>
+        <Button text="Excluir produto" onAction="#onExcluirClick"/>
+    </HBox>
+
+    <Label text="Produtos cadastrados"
+           style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+    <TableView fx:id="tabelaProdutos" prefHeight="350" prefWidth="750">
+
+        <columns>
+
+            <TableColumn fx:id="colunaCodigo" text="Código" prefWidth="100"/>
+            <TableColumn fx:id="colunaNome" text="Nome" prefWidth="120"/>
+            <TableColumn fx:id="colunaDescricao" text="Descrição" prefWidth="150"/>
+            <TableColumn fx:id="colunaFabricacao" text="Fabricação" prefWidth="110"/>
+            <TableColumn fx:id="colunaValidade" text="Validade" prefWidth="110"/>
+            <TableColumn fx:id="colunaPrecoCompra" text="Preço de compra" prefWidth="120"/>
+            <TableColumn fx:id="colunaPreco" text="Preço de venda" prefWidth="120"/>
+            <TableColumn fx:id="colunaQuantidade" text="Quantidade" prefWidth="100"/>
+            <TableColumn fx:id="colunaCategoria" text="Categoria" prefWidth="120"/>
+        </columns>
+
+    </TableView>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Estoque baixo" onAction="#onEstoqueBaixoClick"/>
+        <Button text="Valor total do estoque" onAction="#onValorTotalClick"/>
+    </HBox>
+
+</VBox>

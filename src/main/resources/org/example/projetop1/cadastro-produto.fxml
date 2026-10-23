@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="12"
+      alignment="TOP_CENTER"
+      prefWidth="450"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.projetop1.CadastroProdutoController">
+
+    <padding>
+        <Insets top="20" right="25" bottom="20" left="25"/>
+    </padding>
+
+    <Label text="CADASTRAR PRODUTO"
+           style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+    <TextField fx:id="campoCodigo" promptText="Código (8 caracteres)"/>
+    <TextField fx:id="campoNome" promptText="Nome do produto"/>
+    <TextField fx:id="campoDescricao" promptText="Descrição"/>
+    <TextField fx:id="campoFabricacao" promptText="Fabricação (AAAA-MM-DD)"/>
+    <TextField fx:id="campoValidade" promptText="Validade (AAAA-MM-DD)"/>
+    <TextField fx:id="campoPrecoCompra" promptText="Preço de compra"/>
+    <TextField fx:id="campoPrecoVenda" promptText="Preço de venda"/>
+    <TextField fx:id="campoQuantidade" promptText="Quantidade em estoque"/>
+    <ComboBox fx:id="campoCategoria"
+              promptText="Selecione a categoria"
+              maxWidth="Infinity"/>
+
+    <Label fx:id="mensagem" wrapText="true"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Salvar" onAction="#onSalvarClick"/>
+        <Button text="Cancelar" onAction="#onCancelarClick"/>
+    </HBox>
+
+</VBox>
